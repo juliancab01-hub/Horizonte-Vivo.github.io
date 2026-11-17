@@ -122,7 +122,11 @@ body {
   border-radius: 15px;
   border: 3px solid #2bc4ad;
 }
-
+ .textoMapa {
+ color: #ffca99; 
+ font-weight: bold;
+ 
+}
 /* Footer con contraste mejorado para los textos */
 footer {
   background-color: #0f2622;
@@ -160,6 +164,13 @@ footer .text-white-50 {
   transform: scale(1.05);
 }
 
+.textoVideo {
+ text-align: center;
+ color: #ffca99; 
+ font-weight: bold;
+ margin: 30px;
+}
+
 .modal {
   color: #ffffff;
 }
@@ -179,5 +190,5 @@ img {
 }
 
 body, html {
-  overflow-x: hidden; /* Evita cualquier desplazamiento horizontal inesperado en celulares */
+  overflow-x: clip; /* Evita cualquier desplazamiento horizontal inesperado en celulares */
 }
